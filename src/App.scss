@@ -1,0 +1,23 @@
+@import "./scss/bootstrap";
+@import "./scss/fonts";
+@import "./scss/auth";
+@import "./scss/todoHome";
+@import "./scss/libraries";
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  // background: #74ebd5;
+  // /* fallback for old browsers */
+  // background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);
+  // /* Chrome 10-25, Safari 5.1-6 */
+  // background: linear-gradient(to right, #ACB6E5, #74ebd5);
+  // /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+main {
+  flex: 1 0 auto;
+}
